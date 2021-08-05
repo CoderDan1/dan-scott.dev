@@ -1,0 +1,8 @@
+body {
+    font-family: consolas, "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+}
