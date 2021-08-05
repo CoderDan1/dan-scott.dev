@@ -36,7 +36,7 @@ const Intro = () => {
             <Title>Dan Scott.</Title>
             <SubTitle>I build things for the web.</SubTitle>
             <Summary>
-                I'm a software Engineer creating and enhancing digital experiences on the web. My current gig is building dope software for <OVOLink target="_blank" href="https://ovoenergy.com">OVO Energy</OVOLink> aiding the mission to decarbonise the planet through the use of innovative solutions. 
+                I'm a software Engineer creating and enhancing digital experiences on the web. My current gig is building dope software for <OVOLink target="_blank" href="https://ovoenergy.com" rel="noreferrer">OVO Energy</OVOLink> aiding the mission to decarbonise the planet through the use of innovative solutions. 
             </Summary>
         </>
     );

@@ -50,7 +50,7 @@ function App() {
           <li><ExternalLink link="https://twitter.com/CoderDan">.twitter()</ExternalLink></li>
           <li><ExternalLink link="https://github.com/CoderDan1">.github()</ExternalLink></li>
           <li><ExternalLink link="https://linkedin.com/in/iDanScott">.linkedin()</ExternalLink></li>
-          <li><ExternalLink link="mailto:danscottsoft@gmail.com">.email()</ExternalLink></li>
+          <li><ExternalLink link="mailto:me@dan-scott.dev">.email()</ExternalLink></li>
         </ul>
       </Section> 
       <h4>disclaimer: this site is a work in progress</h4>
