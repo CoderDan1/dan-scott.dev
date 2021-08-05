@@ -1,0 +1,11 @@
+{
+  "name": "dan-scott.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:CoderDan1/dan-scott.dev",
+  "author": "Dan Scott",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
