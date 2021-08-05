@@ -6,9 +6,10 @@
   "author": "Dan Scott",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1"
   },
-  "scripts":{
+  "scripts": {
     "start": "node app.js"
   }
 }
