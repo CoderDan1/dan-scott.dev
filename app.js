@@ -16,7 +16,6 @@ app.get('/forward', (req, res) => {
 });
 
 var httpServer = http.createServer(app);
-var httpsServer = https.createServer(credentials, app);
 
 httpServer.listen(80, () => {
     console.log('HTTP Server running on port 80');
