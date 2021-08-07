@@ -1,59 +1,45 @@
 import styled from "styled-components";
-import Intro from "./Intro";
-import Navbar from "./Navbar";
-import About from './About';
-import ExternalLink from './ExternalLink';
 
 
 function App() {
 
   const Container = styled.div`
-      max-width: 900px;
+      min-width: 100vw;
+      min-height: 100vh;
       margin: auto;
+      padding: 0 10px 0 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
 
-      a { 
-        text-decoration: underline;
-        /*add those for opera and mozilla support*/
-        text-decoration-color: transparent;
-        -webkit-text-decoration-color: transparent;
-        -moz-text-decoration-color: transparent;
-        transition: 0.2s;
+      a:link,
+      a:visited,
+      a:hover {
+        text-decoration: none;
+        color: #0D8426;
+        font-weight:bold;
 
-        &:hover {
-          text-decoration-color: rgba(220, 205, 121, 1);
-          -webkit-text-decoration-color: rgba(220, 205, 121, 1);
-          -moz-text-decoration-color: rgba(220, 205, 121, 1);
-        }
-      }
-
-      a, a:visited, a:hover, a:active {
-
-        &:not(.nav-link) {
-          color: rgba(220, 205, 121, 1);
+        &.social {
+          color: #7afff2;
         }
       }
   `;
 
-  const Section = styled.article`
-    margin: 20px 0 20px 0;
-  `;
+  const Twitter = () => <a className="social" href="https://twitter.com/CoderDan" target="_blank" rel="noreferrer">Twitter</a>
+  const LinkedIn = () => <a className="social" href="https://linkedin.com/in/iDanScott" target="_blank" rel="noreferrer">LinkedIn</a>
+  const Github = () => <a className="social" href="https://github.com/CoderDan1" target="_blank" rel="noreferrer">Github</a>
 
   return (
+
     <Container>
-      <Navbar />
-      <Intro />
-      <Section>
-        <About />
-      </Section>
-      <Section>
-        <ul>
-          <li><ExternalLink link="https://twitter.com/CoderDan">.twitter()</ExternalLink></li>
-          <li><ExternalLink link="https://github.com/CoderDan1">.github()</ExternalLink></li>
-          <li><ExternalLink link="https://linkedin.com/in/iDanScott">.linkedin()</ExternalLink></li>
-          <li><ExternalLink link="mailto:me@dan-scott.dev">.email()</ExternalLink></li>
-        </ul>
-      </Section> 
-      <h4>disclaimer: this site is a work in progress</h4>
+      <div>
+        <h1>Dan Scott</h1>
+        <p>Software Engineer based in Bristol</p>
+        <p>Currently making some dope software for <a href="https://ovoenergy.com" target="_blank" rel="noreferrer">OVO Energy</a></p>
+        <p>You can find me on <Twitter></Twitter>, <LinkedIn></LinkedIn> and <Github></Github></p>
+      </div>
     </Container>
   );
 }
