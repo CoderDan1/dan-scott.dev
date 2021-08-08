@@ -7,7 +7,6 @@ function App() {
       min-width: 100vw;
       min-height: 100vh;
       margin: auto;
-      padding: 0 10px 0 10px;
       display: flex;
       justify-content: center;
       align-items: center;
