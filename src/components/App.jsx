@@ -21,7 +21,7 @@ function App() {
         font-weight:bold;
 
         &.social {
-          color: #7afff2;
+          color: rgba(91,161,248,1);
         }
       }
   `;
@@ -34,9 +34,8 @@ function App() {
 
     <Container>
       <div>
-        <h1>Dan Scott</h1>
-        <p>Software Engineer based in Bristol</p>
-        <p>Currently making some dope software for <a href="https://ovoenergy.com" target="_blank" rel="noreferrer">OVO Energy</a></p>
+        <img src="/logo-512.png" alt="logo" />
+        <p>Something new is on the horizon, watch this space.</p>
         <p>You can find me on <Twitter></Twitter>, <LinkedIn></LinkedIn> and <Github></Github></p>
       </div>
     </Container>
