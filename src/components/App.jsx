@@ -14,6 +14,10 @@ function App() {
       flex-direction: column;
       text-align: center;
 
+      img {
+        max-width: 100vw;
+      }
+
       a:link,
       a:visited,
       a:hover {
