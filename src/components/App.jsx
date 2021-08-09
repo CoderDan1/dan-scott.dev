@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Animate, AnimateGroup } from "react-simple-animate";
 
 
 function App() {
@@ -34,9 +35,17 @@ function App() {
 
     <Container>
       <div>
-        <img src="/logo-512.png" alt="logo" />
-        <p>Something new is on the horizon, watch this space.</p>
-        <p>You can find me on <Twitter></Twitter>, <LinkedIn></LinkedIn> and <Github></Github></p>
+        <AnimateGroup play>
+          <Animate start={{ opacity: 0, transform: 'translateY(10px)'}} end={{ opacity: 1, transform: 'translateY(0)'}} sequenceIndex={0} duration={1}>
+            <img src="/logo-512.png" alt="logo" />
+          </Animate>
+          <Animate start={{ opacity: 0, transform: 'translateY(10px)'}} end={{ opacity: 1, transform: 'translateY(0)'}} sequenceIndex={1} duration={1}>
+            <p>Something new is on the horizon, watch this space.</p>
+          </Animate>
+          <Animate start={{ opacity: 0, transform: 'translateY(10px)'}} end={{ opacity: 1, transform: 'translateY(0)'}} sequenceIndex={2} duration={1}>
+            <p>You can find me on <Twitter></Twitter>, <LinkedIn></LinkedIn> and <Github></Github></p>
+          </Animate>
+        </AnimateGroup>
       </div>
     </Container>
   );
