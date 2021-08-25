@@ -35,7 +35,7 @@ const App = () => {
 
   const Twitter = () => <a className="social" href="https://twitter.com/CoderDan" target="_blank" rel="noreferrer">Twitter</a>
   const LinkedIn = () => <a className="social" href="https://linkedin.com/in/iDanScott" target="_blank" rel="noreferrer">LinkedIn</a>
-  const Github = () => <a className="social" href="https://github.com/CoderDan1" target="_blank" rel="noreferrer">Github</a>
+  const Github = () => <a className="social" href="https://github.com/CdrDn" target="_blank" rel="noreferrer">Github</a>
 
   return (
     <Container>
